@@ -54,8 +54,6 @@ lib/
    flutter run
    ```
 
-网络地址说明：iOS 模拟器可直接访问 `localhost`；Android 模拟器需把 `TodoServices` 的 `baseUrl` 改为 `http://10.0.2.2:3000`；真机使用电脑的局域网 IP 并保证同一 Wi-Fi。
-
 ## Mock API
 
 json-server 基于 `db.json` 的 `todos` 资源提供 REST 接口：
